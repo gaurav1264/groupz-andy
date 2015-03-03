@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 						if (!TextUtils.isEmpty(phoneNumbTv.getText().toString())) {
 							verify();
 						}else{
-							Toast.makeText(getApplicationContext(), "Please enter your phone number to verify", 3500).show();
+							Toast.makeText(getApplicationContext(), "Please enter your mobile number to verify", 3500).show();
 						}
 
 					}
@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onTick(long millisUntilFinished) {
+				Toast.makeText(getApplicationContext(), "Not yet implemented", 3500).show();
 			}
 
 			@Override
